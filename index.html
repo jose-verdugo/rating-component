@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+
+  <body>
+    <div class="Wrapper">
+      <section class="First">
+        <i class="First_star"><img src="images/icon-star.svg" alt="Star" /></i>
+        <div class="First_main">
+          <h1 class="First_h1">How did we do?</h1>
+          <p class="First_p">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="First_rating">
+            <a class="First_a" href="#" onclick="updateRating(1)">1</a>
+            <a class="First_a" href="#" onclick="updateRating(2)">2</a>
+            <a class="First_a" href="#" onclick="updateRating(3)">3</a>
+            <a class="First_a" href="#" onclick="updateRating(4)">4</a>
+            <a class="First_a" href="#" onclick="updateRating(5)">5</a>
+          </div>
+          <a href="#" class="First_submit">Submit</a>
+        </div>
+      </section>
+      <section class="Second Second--none">
+        <img
+          class="Second_img"
+          src="images/illustration-thank-you.svg"
+          alt="" />
+        <div class="Second_main"><span class="Second_rating"></span></div>
+        <h2 class="Second_h2">Thank you!</h2>
+        <div class="Second_text">
+          <p class="Second_p">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
