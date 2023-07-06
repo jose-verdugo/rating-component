@@ -2,6 +2,12 @@
 
 Proyecto de la página de https://www.frontendmentor.io/ para practicar el manejo del DOM.
 
+## Tecnologías usadas
+
+![HTML](https://img.shields.io/static/v1?label=&message=Html&color=orange&logo=html5&logoColor=white&style=for-the-badge)
+![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)
+![JS](https://img.shields.io/static/v1?label=&message=js&color=yellow&logo=javascript&logoColor=white&style=for-the-badge)
+
 ## Autor
 
 Jose Antonio Verdugo
